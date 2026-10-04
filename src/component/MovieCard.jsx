@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function MovieCard({movie}){
 
 
@@ -6,6 +7,7 @@ function MovieCard({movie}){
             <h2>{movie.title}</h2>
             <p>{movie.genre}</p>
             <p>{movie.rating}</p>
+            <Link to={`/movies/${movie.id}`}>View Details</Link>
         </div>
     );
 
