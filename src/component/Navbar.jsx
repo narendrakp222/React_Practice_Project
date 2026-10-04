@@ -5,7 +5,7 @@ function Navbar(){
     return (
 <div>
 <Link to="/">Home</Link> {"  |  "}
-<Link to="/movies">Movie</Link>
+<Link to="/movies">Movie</Link> {" | "}
 <Link to="/about">About</Link>
 
 
